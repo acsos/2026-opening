@@ -1,0 +1,4 @@
+{{- $type := .Get "type" | default "gradient" -}}
+{{- $interactive := .Get "interactive" | default "true" -}}
+{{- $path := printf "/animations/%s.html" $type -}}
+{{ printf "{{< slide background-iframe=\"%s\" %s >}}" $path (cond (in (slice "true" true) $interactive) "background-interactive=\"true\"" "") | safeHTML }}

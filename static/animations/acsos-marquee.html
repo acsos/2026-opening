@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ACSOS two-column marquee</title>
+    <style>
+        :root{
+          --bg:#083b6f;
+          --duration:14s;     /* seconds per loop */
+          --gap:4vh;          /* vertical space between logos */
+          --size:22vmin;      /* logo height when fit=height */
+          --colw:48vw;        /* column width */
+          --pad:4vmin;        /* inner horizontal padding per column */
+        }
+
+        html,body{ margin:0; height:100%; overflow:hidden; background:var(--bg); }
+
+        .stage{
+          position:fixed; inset:0;
+          display:flex; justify-content:space-between; align-items:stretch;
+          gap:0; overflow:hidden;
+        }
+
+        .columnBox{
+          position:relative; width:var(--colw);
+          padding-inline:var(--pad);
+          overflow:hidden; display:flex; justify-content:center;
+        }
+
+        .wrap{ position:absolute; left:0; right:0; top:0; will-change:transform; }
+
+        /* translate exactly half the wrapper height for seamless loop */
+        @keyframes scrollDown { from{ transform:translateY(0); }     to{ transform:translateY(-50%); } }
+        @keyframes scrollUp   { from{ transform:translateY(-50%); }  to{ transform:translateY(0); } }
+        .run.down{ animation:scrollDown var(--duration) linear infinite; }
+        .run.up  { animation:scrollUp   var(--duration) linear infinite; }
+
+        .column{ display:flex; flex-direction:column; align-items:center; }
+
+        /* --- LOGO SIZING --- */
+        /* Default: FIT BY WIDTH (avoids horizontal clipping) */
+        .logo{
+          width:100%;           /* image never wider than column content box */
+          height:auto;          /* preserve aspect ratio */
+          display:block;
+          pointer-events:none; user-select:none;
+          margin-top:var(--gap);
+        }
+        .logo:first-child{ margin-top:0; }
+
+        /* Optional: fit by HEIGHT → may crop if logo is very wide */
+        .fitHeight .logo{
+          width:auto;
+          height:var(--size);
+          max-width:100%;       /* still clamp to column if too wide */
+        }
+
+        @media (prefers-reduced-motion: reduce){
+          .run.down, .run.up { animation:none; }
+        }
+    </style>
+</head>
+<body>
+<div class="stage">
+    <!-- LEFT: down -->
+    <div class="columnBox">
+        <div class="wrap" id="wrapA">
+            <div class="column" id="colA1"></div>
+            <div class="column" id="colA2"></div>
+        </div>
+    </div>
+    <!-- RIGHT: up -->
+    <div class="columnBox">
+        <div class="wrap" id="wrapB">
+            <div class="column" id="colB1"></div>
+            <div class="column" id="colB2"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function(){
+      const p    = new URLSearchParams(location.search);
+      const src  = p.get('src') || 'acsos-logo.svg';
+      const speed= +p.get('speed') || 14;
+      const bg   = p.get('bg') || '#083b6f';
+      const gap  = +(p.get('gap') || 4);     // vh
+      const size = +(p.get('size') || 22);   // vmin (used only if fit=height)
+      const colw = p.get('colw') || null;    // e.g. 46vw
+      const pad  = p.get('pad') || null;     // e.g. 4vmin
+      const fit  = (p.get('fit') || 'width').toLowerCase(); // width | height
+
+      const r = document.documentElement.style;
+      r.setProperty('--duration', `${speed}s`);
+      r.setProperty('--bg', bg);
+      r.setProperty('--gap', `${gap}vh`);
+      r.setProperty('--size', `${size}vmin`);
+      if (colw) r.setProperty('--colw', colw);
+      if (pad)  r.setProperty('--pad', pad);
+
+      // Toggle fit mode
+      if (fit === 'height') document.body.classList.add('fitHeight');
+      else document.body.classList.remove('fitHeight');
+
+      function buildColumn(col){
+        col.innerHTML = '';
+        // Build enough rows to cover viewport (generous margin)
+        // Create one logo to measure actual rendered height with current CSS
+        const probe = document.createElement('img');
+        probe.src = src; probe.className = 'logo'; probe.style.visibility = 'hidden';
+        col.appendChild(probe);
+        // Force in DOM to measure
+        const rowH = probe.getBoundingClientRect().height + (window.innerHeight * (gap/100));
+        probe.remove();
+
+        const needed = Math.ceil((window.innerHeight * 1.05) / Math.max(1,rowH)) + 2;
+        for (let i=0; i<needed; i++){
+          const img = document.createElement('img');
+          img.src = src; img.className = 'logo';
+          col.appendChild(img);
+        }
+      }
+
+      function setupPair(id1,id2,wrapId,dir){
+        const c1 = document.getElementById(id1);
+        const c2 = document.getElementById(id2);
+        const wrap = document.getElementById(wrapId);
+
+        wrap.classList.remove('run','down','up'); // stop while rebuilding
+        buildColumn(c1);
+        c2.innerHTML = c1.innerHTML;              // exact clone for seamless loop
+        void wrap.offsetHeight;                   // reflow
+        wrap.classList.add('run', dir);           // restart
+      }
+
+      function init(){
+        setupPair('colA1','colA2','wrapA','down');
+        setupPair('colB1','colB2','wrapB','up');
+      }
+
+      init();
+      addEventListener('resize', init);
+    })();
+</script>
+</body>
+</html>

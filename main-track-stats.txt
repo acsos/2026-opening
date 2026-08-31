@@ -1,0 +1,10 @@
+abstract submissions: 106
+complete submissions: 100
+desk rejects: 20
+accepts: 16 (A.R. 16%)
+conditional accepts: 7
+conditional accepts success rate: 100%
+total accepts: 23 (A.R. 23%)
+accepted papers as short: 10
+vision papers accepted: 5
+
