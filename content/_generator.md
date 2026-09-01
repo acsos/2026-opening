@@ -197,39 +197,77 @@ style="width:35em" />
 
 # Additional Social events
 
+<div style="width:70%; height:12em; margin:0 auto; overflow:hidden; line-height:0;">
+  <img src="https://github.com/acsos/acsos2026/blob/main/acsos-ase-lr.png?raw=true" alt="ACSOS ASE image" style="display:block; width:100%; height:100%; object-fit:cover; object-position:center 35%;" />
+</div>
+
+{{% multicol %}}
+{{% col %}}
 * *Today*: **Wine**, Views, and Dinner on Romagna’s Balcony
     * Wine tasting and dinner in Bertinoro
     * A bus will pick up participants right from the campus at the end of the last session
+{{% /col %}}
+{{% col %}}
 * *Thursday*: **ACSOS GP** on the Riviera: Racing & Dinner
     * Kart racing in Riccione
     * Non-racing Riccione walk option
     * Dinner in Rimini at Bounty
+{{% /col %}}
+{{% col %}}
 * *Friday*: Along Leonardo’s Canal: **Cesenatico** and Fish Dinner
     * Visit to the maritime museum
     * Visit to Leonardo's Canal and Cesenatico city center
     * Fish dinner near the beach
-        * Meat and vegetarian options available  
+        * Meat and veggy options avail.
+{{% /col %}}
+{{% /multicol %}}
 
-<div style="position:absolute; left:8%; right:8%; bottom:-10em; z-index:5; display:flex; align-items:center; justify-content:space-around; gap:2em;">
+<div style="position:absolute; left:8%; right:40%; bottom:-8em; z-index:5; display:flex; align-items:center; justify-content:space-around; gap:2em;">
   <div style="flex:1; text-align:right; font-size:1.15em;">
     <b>Register at:</b><br />
     <span style="font-size:.8em;">serinarpayments.it/acsos-2026/</span>
   </div>
-  <div style="flex:0 0 auto; padding:.4em; background:rgba(255,255,255,.95); border-radius:.5em;">
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=https%3A%2F%2Fserinarpayments.it%2Facsos-2026%2F" alt="QR code for Ser.In.Ar. ACSOS 2026 registration" style="display:block; width:9em; height:9em;" />
+  <div style="flex:0 0 auto; padding:.1em; background:rgba(255,255,255,.95); border-radius:.5em;">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=https%3A%2F%2Fserinarpayments.it%2Facsos-2026%2F" alt="QR code for Ser.In.Ar. ACSOS 2026 registration" style="display:block; width:7em; height:7em;" />
   </div>
 </div>
 
 ---
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
-<img src="acsos-logo-cesena.svg"
-alt="ACSOS 2026 logo"
-style="position:absolute; top:-1em; right:0em; width:25vmin; z-index:10; pointer-events:none;" />
 
-# Telegram group
+# ACSOS 2026 Social Coordination via Telegram
 
-* Teatro Verdi TODO
+<div style="display:flex; align-items:center; justify-content:space-around; gap:2em; width:90%; margin:1em auto 0;">
+  <div style="flex:1; text-align:center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram logo" style="display:block; width:12em; height:12em; margin:0 auto .6em;" />
+    <div style="font-size:1.25em; font-weight:700;">https://t.me/+u-8V_NYXBpo1MWY0</div>
+  </div>
+  <div style="flex:1; text-align:center;">
+    <div style="display:inline-block; padding:.6em; background:rgba(255,255,255,.95); border-radius:.5em;">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=https%3A%2F%2Ft.me%2F%2Bu-8V_NYXBpo1MWY0" alt="QR code for the ACSOS Social Coordination Group" style="display:block; width:11em; height:11em;" />
+    </div>
+  </div>
+</div>
+
+---
+
+{{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
+
+# Pics, or didn't happen
+
+<div style="display:flex; align-items:center; justify-content:space-around; gap:2em; width:90%; margin:1em auto 0;">
+  <div style="flex:1; text-align:center;">
+    <img src="https://logos-world.net/wp-content/uploads/2022/05/Google-Photos-Logo.png" alt="Google Photos logo" style="display:block; width:20em; height:20em; margin:0 auto .6em;" />
+    <div style="font-size:1.15em; font-weight:700;">https://photos.app.goo.gl/S2NSXuZUPYkGQfLo6</div>
+  </div>
+  <div style="flex:1; text-align:center;">
+    <div style="display:inline-block; padding:.6em; background:rgba(255,255,255,.95); border-radius:.5em;">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=https%3A%2F%2Fphotos.app.goo.gl%2FS2NSXuZUPYkGQfLo6" alt="QR code for ACSOS 2026 photos" style="display:block; width:11em; height:11em;" />
+    </div>
+  </div>
+</div>
+
 
 ---
 
@@ -675,6 +713,43 @@ style="position:absolute; top:-0.5em; right:0em; width:25vmin; z-index:10; point
 ---
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
+
+# Keynote speakers
+
+<div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:1em; width:97%; margin:.4em auto 0; font-family:inherit;">
+  <div style="padding:.5em .6em; border-top:5px solid #f6d365; border-radius:.35em; background:rgba(66,54,27,.5); text-align:center; min-height:20em;">
+    <div style="margin-bottom:.35em; color:#ffe5a3; font-size:.72em; font-weight:bold;">Tuesday · 09:10–10:00<br><span style="font-size:.9em;">main track keynote</span></div>
+    <img src="https://2026.acsos.org/getImage/orig/valeria.jpg" alt="Valeria Cardellini" style="width:8em; height:8em; object-fit:cover; border-radius:50%; border:4px solid #f6d365;">
+    <h3 style="margin:.35em 0 .1em; font-size:1.15em;">Valeria Cardellini</h3>
+    <div style="font-size:.7em; color:#f8e5a6;">Tor Vergata University of Rome</div>
+    <p style="margin:.8em 0 0; font-size:.78em; line-height:1.25; color:#ffe5a3;"><b>Adaptive Serverless Computing Across the Cloud-Edge Continuum</b></p>
+  </div>
+  <div style="padding:.5em .6em; border-top:5px solid #48c6ef; border-radius:.35em; background:rgba(16,48,81,.5); text-align:center; min-height:20em;">
+    <div style="margin-bottom:.35em; color:#ffe5a3; font-size:.72em; font-weight:bold;">Wednesday · 09:00–10:00<br><span style="font-size:.9em;">main track keynote</span></div>
+    <img src="https://2026.acsos.org/getImage/orig/IMG_6111.jpeg" alt="Marco Dorigo" style="width:8em; height:8em; object-fit:cover; border-radius:50%; border:4px solid #48c6ef;">
+    <h3 style="margin:.35em 0 .1em; font-size:1.15em;">Marco Dorigo</h3>
+    <div style="font-size:.7em; color:#b9d7ee;">Université Libre de Bruxelles</div>
+    <p style="margin:.8em 0 0; font-size:.78em; line-height:1.25; color:#ffe5a3;"><b>Bridging Centralized and Decentralized Control in Robot Swarms through Self-Organizing Hierarchies</b></p>
+  </div>
+  <div style="padding:.5em .6em; border-top:5px solid #c59bff; border-radius:.35em; background:rgba(42,33,76,.5); text-align:center; min-height:20em;">
+    <div style="margin-bottom:.35em; color:#ffe5a3; font-size:.72em; font-weight:bold;">Thursday · 09:00–10:00<br><span style="font-size:.9em;">main track keynote</span></div>
+    <img src="https://2026.acsos.org/getImage/orig/Ivona_2015.jpg" alt="Ivona Brandic" style="width:8em; height:8em; object-fit:cover; border-radius:50%; border:4px solid #c59bff;">
+    <h3 style="margin:.35em 0 .1em; font-size:1.15em;">Ivona Brandic</h3>
+    <div style="font-size:.7em; color:#d9c7ff;">TU Wien</div>
+    <p style="margin:.8em 0 0; font-size:.78em; line-height:1.25; color:#ffe5a3;"><b>Bridging Classical and Quantum Computing: Lessons, Challenges, and Opportunities</b></p>
+  </div>
+  <div style="padding:.5em .6em; border-top:5px solid #8ee3a8; border-radius:.35em; background:rgba(24,67,53,.5); text-align:center; min-height:20em;">
+    <div style="margin-bottom:.35em; color:#ffe5a3; font-size:.72em; font-weight:bold;">Tuesday · 14:00–15:00<br><span style="font-size:.9em;">doctoral symposium keynote</span></div>
+    <img src="https://www.deib.polimi.it/allegati/peopledeib/528646/foto.jpg" alt="Carlo Ghezzi" style="width:8em; height:8em; object-fit:cover; border-radius:50%; border:4px solid #8ee3a8;">
+    <h3 style="margin:.35em 0 .1em; font-size:1.15em;">Carlo Ghezzi</h3>
+    <div style="font-size:.7em; color:#bfe8cc;">Politecnico di Milano</div>
+    <p style="margin:.8em 0 0; font-size:.78em; line-height:1.25; color:#ffe5a3;"><b>Being a researcher — in turbulent times</b></p>
+  </div>
+</div>
+
+---
+
+{{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
 <img src="acsos-logo-cesena.svg"
 alt="ACSOS 2026 logo"
 style="position:absolute; top:-1em; right:0em; width:25vmin; z-index:10; pointer-events:none;" />
@@ -725,6 +800,14 @@ TODO
   <div style="text-align:center; font-size:20px; line-height:1.1;"><img src="https://2026.acsos.org/getProfileImage/nasimbeigimohammadi/01b785fd-6d5f-4133-b09b-ca142864e70a/small-avatar?1783979259000" alt="Nasim Beigi-Mohammadi" style="width:4.1em; height:4.1em; object-fit:cover; border-radius:50%; border:3px solid #f6d365;"><br><b>Nasim Beigi-Mohammadi</b><br><small>Demo &amp; Poster Co-Chair</small></div>
   <div style="text-align:center; font-size:20px; line-height:1.1;"><img src="https://2026.acsos.org/getProfileImage/marcoedoardosantimaria/5c661a31-e1ce-4648-9240-ef2a05081973/small-avatar?1783975831000" alt="Marco Edoardo Santimaria" style="width:4.1em; height:4.1em; object-fit:cover; border-radius:50%; border:3px solid #f6d365;"><br><b>Marco Edoardo Santimaria</b><br><small>AI Chair</small></div>
 </div>
+
+---
+
+# Thank you, volunteers!
+
+![](https://i.imgflip.com/b0595b.jpg)
+
+(placeholder for their picture)
 
 ---
 
@@ -827,49 +910,6 @@ style="position:absolute; top:-7em; right:0em; width:25vmin; z-index:10; pointer
 
 {{% /col %}}
 {{< /multicol >}}
-
----
-
-# Volunteers
-
-TODO
-
----
-
-{{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
-
-# Keynote speakers
-
-<div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:1em; width:97%; margin:.4em auto 0; font-family:inherit;">
-  <div style="padding:.5em .6em; border-top:5px solid #f6d365; border-radius:.35em; background:rgba(66,54,27,.5); text-align:center; min-height:20em;">
-    <div style="margin-bottom:.35em; color:#ffe5a3; font-size:.72em; font-weight:bold;">Tuesday · 09:10–10:00<br><span style="font-size:.9em;">main track keynote</span></div>
-    <img src="https://2026.acsos.org/getImage/orig/valeria.jpg" alt="Valeria Cardellini" style="width:8em; height:8em; object-fit:cover; border-radius:50%; border:4px solid #f6d365;">
-    <h3 style="margin:.35em 0 .1em; font-size:1.15em;">Valeria Cardellini</h3>
-    <div style="font-size:.7em; color:#f8e5a6;">Tor Vergata University of Rome</div>
-    <p style="margin:.8em 0 0; font-size:.78em; line-height:1.25; color:#ffe5a3;"><b>Adaptive Serverless Computing Across the Cloud-Edge Continuum</b></p>
-  </div>
-  <div style="padding:.5em .6em; border-top:5px solid #48c6ef; border-radius:.35em; background:rgba(16,48,81,.5); text-align:center; min-height:20em;">
-    <div style="margin-bottom:.35em; color:#ffe5a3; font-size:.72em; font-weight:bold;">Wednesday · 09:00–10:00<br><span style="font-size:.9em;">main track keynote</span></div>
-    <img src="https://2026.acsos.org/getImage/orig/IMG_6111.jpeg" alt="Marco Dorigo" style="width:8em; height:8em; object-fit:cover; border-radius:50%; border:4px solid #48c6ef;">
-    <h3 style="margin:.35em 0 .1em; font-size:1.15em;">Marco Dorigo</h3>
-    <div style="font-size:.7em; color:#b9d7ee;">Université Libre de Bruxelles</div>
-    <p style="margin:.8em 0 0; font-size:.78em; line-height:1.25; color:#ffe5a3;"><b>Bridging Centralized and Decentralized Control in Robot Swarms through Self-Organizing Hierarchies</b></p>
-  </div>
-  <div style="padding:.5em .6em; border-top:5px solid #c59bff; border-radius:.35em; background:rgba(42,33,76,.5); text-align:center; min-height:20em;">
-    <div style="margin-bottom:.35em; color:#ffe5a3; font-size:.72em; font-weight:bold;">Thursday · 09:00–10:00<br><span style="font-size:.9em;">main track keynote</span></div>
-    <img src="https://2026.acsos.org/getImage/orig/Ivona_2015.jpg" alt="Ivona Brandic" style="width:8em; height:8em; object-fit:cover; border-radius:50%; border:4px solid #c59bff;">
-    <h3 style="margin:.35em 0 .1em; font-size:1.15em;">Ivona Brandic</h3>
-    <div style="font-size:.7em; color:#d9c7ff;">TU Wien</div>
-    <p style="margin:.8em 0 0; font-size:.78em; line-height:1.25; color:#ffe5a3;"><b>Bridging Classical and Quantum Computing: Lessons, Challenges, and Opportunities</b></p>
-  </div>
-  <div style="padding:.5em .6em; border-top:5px solid #8ee3a8; border-radius:.35em; background:rgba(24,67,53,.5); text-align:center; min-height:20em;">
-    <div style="margin-bottom:.35em; color:#ffe5a3; font-size:.72em; font-weight:bold;">Tuesday · 14:00–15:00<br><span style="font-size:.9em;">doctoral symposium keynote</span></div>
-    <img src="https://www.deib.polimi.it/allegati/peopledeib/528646/foto.jpg" alt="Carlo Ghezzi" style="width:8em; height:8em; object-fit:cover; border-radius:50%; border:4px solid #8ee3a8;">
-    <h3 style="margin:.35em 0 .1em; font-size:1.15em;">Carlo Ghezzi</h3>
-    <div style="font-size:.7em; color:#bfe8cc;">Politecnico di Milano</div>
-    <p style="margin:.8em 0 0; font-size:.78em; line-height:1.25; color:#ffe5a3;"><b>Being a researcher — in turbulent times</b></p>
-  </div>
-</div>
 
 ---
 
