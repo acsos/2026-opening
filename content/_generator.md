@@ -1258,7 +1258,7 @@ style="position:absolute; top:-7em; right:0em; width:25vmin; z-index:10; pointer
 }
 {{< /chart >}}
 </div>
-<div style="text-align:center; margin-top:.35em; color:#b9d7ee; font-size:.72em;">Whole-author estimates from country author counts × country acceptance rate</div>
+<div style="text-align:center; margin-top:.35em; color:#b9d7ee; font-size:.72em;">Estimated whole-author counts from country author counts × country acceptance rate</div>
 
 ---
 
