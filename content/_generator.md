@@ -206,7 +206,7 @@ style="width:35em" />
 {{% col %}}
 * *Today*: **Wine**, Views, and Dinner on Romagna’s Balcony
     * Wine tasting and dinner in Bertinoro
-    * A bus will pick up participants right from the campus at the end of the last session
+    * A bus will pick up participants directly from campus at the end of the last session
 {{% /col %}}
 {{% col %}}
 * *Thursday*: **ACSOS GP** on the Riviera: Racing & Dinner
@@ -217,7 +217,7 @@ style="width:35em" />
 {{% col %}}
 * *Friday*: Along Leonardo’s Canal: **Cesenatico** and Fish Dinner
     * Visit to the maritime museum
-    * Visit to Leonardo's Canal and Cesenatico city center
+    * Visit to Leonardo's Canal and Cesenatico's city centre
     * Fish dinner near the beach
         * Meat and veggy options avail.
 {{% /col %}}
