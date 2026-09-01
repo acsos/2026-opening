@@ -92,10 +92,10 @@ style="width:35em" />
 
 # ACSOS in Cesena
 
-* A campus of the **University of Bologna** in *Romagna*
-* Hosts about one third of the **Department of Computer Science and Engineering**
-* Home of several ACSOS/SASO contributors
-* Recent and modern infrastructure
+* A **University of Bologna** campus in *Romagna*
+* Hosts roughly one-third of the **Department of Computer Science and Engineering**
+* Several ACSOS/SASO contributors are based here
+* Modern infrastructure
 * Cesena hosted a hybrid *IEEE ACSOS special event* in 2022
     * three speakers
     * rich social program
