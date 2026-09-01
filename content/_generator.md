@@ -17,6 +17,7 @@ style="width:35em" />
 ---
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
+
 <div style="font-family:inherit; width:96%; margin:0 auto; color:#f7fbff;">
   <h1 style="margin:0 0 .15em; font-size:1.9em; letter-spacing:.04em;">Two streams. One community.</h1>
   <div style="display:grid; grid-template-columns:1fr 1.05fr 1fr; gap:1.8em; align-items:center; position:relative;">
@@ -750,18 +751,6 @@ style="position:absolute; top:-0.5em; right:0em; width:25vmin; z-index:10; point
 ---
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
-<img src="acsos-logo-cesena.svg"
-alt="ACSOS 2026 logo"
-style="position:absolute; top:-1em; right:0em; width:25vmin; z-index:10; pointer-events:none;" />
-
-# Proceedings
-
-TODO
-
-
----
-
-{{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
 
 # Thank you, Organizing committee!
 
@@ -1270,3 +1259,45 @@ style="position:absolute; top:-7em; right:0em; width:25vmin; z-index:10; pointer
 {{< /chart >}}
 </div>
 <div style="text-align:center; margin-top:.35em; color:#b9d7ee; font-size:.72em;">Whole-author estimates from country author counts × country acceptance rate</div>
+
+---
+
+{{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
+
+# Proceedings
+
+<div style="display:flex; align-items:center; justify-content:space-around; gap:2em; width:90%; margin:1em auto 0;">
+  <div style="flex:1; text-align:center;">
+    <img src="https://liberconference.eu/wp-content/uploads/2019/04/IEEE-XploreDigitalLibrary.jpg" alt="IEEE Xplore logo" style="display:block; width:30em; height:auto; max-width:100%; margin:0 auto 1em;" />
+    <div style="font-size:1.05em; line-height:1.7; text-align:left; display:inline-block;">
+      <div><b>URL:</b> TODO</div>
+      <div><b>Username:</b> TODO</div>
+      <div><b>Password:</b> TODO</div>
+    </div>
+  </div>
+  <div style="flex:1; text-align:center;">
+    <div style="display:inline-block; padding:.6em; background:rgba(255,255,255,.95); border-radius:.5em;">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=TODO" alt="QR code for IEEE Xplore proceedings" style="display:block; width:11em; height:11em;" />
+    </div>
+  </div>
+</div>
+
+---
+
+{{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
+
+# Adaptive Serverless Computing Across the Cloud-Edge Continuum
+
+<div style="display:flex; align-items:center; gap:2em; width:92%; margin:.7em auto 0; text-align:left;">
+  <div style="flex:0 0 31%; text-align:center;">
+    <img src="https://2026.acsos.org/getImage/orig/valeria.jpg" alt="Valeria Cardellini" style="display:block; width:15em; height:15em; max-width:100%; margin:0 auto .8em; object-fit:cover; border-radius:50%; border:6px solid #f6d365;" />
+    <div style="font-size:.85em; line-height:1.2; color:#ffe5a3;">Valeria Cardellini</div>
+    <div style="font-size:.6em; line-height:1.25; color:#b9d7ee; margin-top:.35em;">Full Professor of Computer Science and Engineering<br />University of Rome Tor Vergata, Italy</div>
+  </div>
+  <div style="flex:1; padding:1em 1.2em; border-left:5px solid #f6d365; border-radius:.35em; background:rgba(66,54,27,.5); font-size:.72em; line-height:1.35; color:#ffe5a3;">
+    <div style="font-size:1.35em; font-weight:700; margin-bottom:.45em; color:#ffe082;">Abstract</div>
+    <p>Serverless computing, particularly Function-as-a-Service, has transformed application deployment through event-driven execution and automatic scaling. Across the heterogeneous Cloud-Edge continuum, however, cloud-centric platforms struggle with changing node availability, network conditions, data locality, and energy constraints.</p>
+    <p>This keynote explores adaptive serverless computing, where scheduling, execution offloading, and resource management continuously respond to infrastructure, workload, and user requirements. Context-aware orchestration makes decentralized runtime decisions that balance performance, cost, and sustainability.</p>
+    <p>Using Serverledge, a decentralized open-source FaaS platform for distributed continuum environments, the talk shows how adaptive execution can provide efficient, resilient, and low-latency serverless performance without centralized control. It closes with challenges and a vision for autonomous serverless platforms.</p>
+  </div>
+</div>
