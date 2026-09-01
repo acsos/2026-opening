@@ -892,7 +892,7 @@ style="position:absolute; top:-7em; right:0em; width:25vmin; z-index:10; pointer
 * **20** Desk rejects (non-anonymous, AI-gen)
 * **16** Accepted papers (A.R. 16%)
 * **7** Conditional accepts, 100% success rate
-* **23** Full papers in toal (A.R. **23%**)
+* **23** Full papers in total (A.R. **23%**)
 * **10** Short papers 
 * **5** Vision papers
 * **38** Main-track presentations
