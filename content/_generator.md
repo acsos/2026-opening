@@ -174,7 +174,7 @@ style="width:35em" />
 </div>
 
 * Teatro Verdi, Cesena
-    * In the city center, a *half-hour* walk from the Campus
+    * In the city centre, a *30-minute* walk from campus
 * **Aperitivo** starts at 19:00
 * The **three-course dinner** will be served afterwards
     * *Around* 20:20
