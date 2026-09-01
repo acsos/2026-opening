@@ -237,7 +237,7 @@ style="width:35em" />
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
 
-# ACSOS 2026 Social Coordination via Telegram
+# ACSOS 2026 Social Coordination on Telegram
 
 <div style="display:flex; align-items:center; justify-content:space-around; gap:2em; width:90%; margin:1em auto 0;">
   <div style="flex:1; text-align:center;">
