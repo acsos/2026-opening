@@ -1174,7 +1174,7 @@ style="position:absolute; top:-7em; right:0em; width:25vmin; z-index:10; pointer
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
 
-# Accepted authors by continent
+# Estimated accepted authors by continent
 
 <div style="background:rgba(255,255,255,.25); border-radius:.5em; padding:.4em;">
 {{< chart 100 780 >}}
