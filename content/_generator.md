@@ -1123,7 +1123,7 @@ style="position:absolute; top:-7em; right:0em; width:25vmin; z-index:10; pointer
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
 
-# Accepted authors by country
+# Estimated accepted authors by country
 
 <div style="width:96%; margin:.1em auto 0; padding:.35em .5em .15em; border-radius:.6em; background:rgba(16,48,81,.48);">
   <svg id="acsos-accepted-authors-map" viewBox="0 0 1200 600" role="img" aria-label="World map showing countries represented by estimated ACSOS accepted authors" style="display:block; width:100%; height:24em;"></svg>
