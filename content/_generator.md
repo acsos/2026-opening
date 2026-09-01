@@ -2,7 +2,7 @@
 +++
 
 title = "ACSOS 2026 - Opening Ceremony"
-description = "Acsos 2026 Opening"
+description = "ACSOS 2026 Opening"
 outputs = ["Reveal"]
 
 +++
