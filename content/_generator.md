@@ -1270,14 +1270,14 @@ style="position:absolute; top:-7em; right:0em; width:25vmin; z-index:10; pointer
   <div style="flex:1; text-align:center;">
     <img src="https://liberconference.eu/wp-content/uploads/2019/04/IEEE-XploreDigitalLibrary.jpg" alt="IEEE Xplore logo" style="display:block; width:30em; height:auto; max-width:100%; margin:0 auto 1em;" />
     <div style="font-size:1.05em; line-height:1.7; text-align:left; display:inline-block;">
-      <div><b>URL:</b> TODO</div>
-      <div><b>Username:</b> TODO</div>
-      <div><b>Password:</b> TODO</div>
+      <div><b>URL: </b>https://conferences.computer.org/acsospub26</div>
+      <div><b>Username: </b>acsospub26</div>
+      <div><b>Password: </b>conf26//</div>
     </div>
   </div>
   <div style="flex:1; text-align:center;">
     <div style="display:inline-block; padding:.6em; background:rgba(255,255,255,.95); border-radius:.5em;">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=TODO" alt="QR code for IEEE Xplore proceedings" style="display:block; width:11em; height:11em;" />
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=https%3A%2F%2Fconferences.computer.org%2Facsospub26" alt="QR code for IEEE Xplore proceedings" style="display:block; width:11em; height:11em;" />
     </div>
   </div>
 </div>
