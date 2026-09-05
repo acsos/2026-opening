@@ -109,27 +109,96 @@ style="width:35em" />
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
 
-# Moving in the Campus, floor 1
+# Conference kit
 
-<div style="display:inline-block; background:rgba(255,255,255,.85); padding:.5em; border-radius:.5em;">
-
-![](floor1.svg)
-
+<div style="display:grid; grid-template-columns:1.25fr .75fr; gap:1.2em; align-items:center; width:96%; margin:0 auto;">
+  <div style="text-align:center;">
+    <img src="kit.png" alt="Conference kit" style="display:block; width:100%; max-height:18em; object-fit:contain; margin:0 auto;" />
+  </div>
+  <div style="text-align:left; font-size:1.1em;">
+    <ul>
+      <li>Backpack</li>
+      <li>Lanyard in the front pocket</li>
+      <li>Double-sided badge
+        <ul>
+          <li>Find your event tickets inside the badge</li>
+          <li>If you have a dietary restriction, you will find a ticket to be used at the banquet, just have it visible where you decide to seat</li>
+        </ul>
+      </li>
+      <li>Notebook and pen</li>
+      <li>Key finder</li>
+      <li>Reusable bottle</li>
+      <li>Touristic information</li>
+    </ul>
+  </div>
 </div>
 
 ---
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
 
-# Moving in the Campus, floor 0
+# The ACSOS survival guide
 
-<div style="display:block; width:fit-content; margin:0 auto; background:rgba(255,255,255,.9); padding:.1em; border-radius:.5em; transform:scale(1.05); transform-origin:center;">
+<div style="display:flex; align-items:center; justify-content:space-around; gap:2em; width:90%; margin:1em auto 0;">
+  <div style="flex:1; text-align:center;">
+    <img src="survival.png" style="display:block; width:20em; height:20em; margin:0 auto .6em;" />
+    <div style="font-size:1.15em; font-weight:700;">https://bit.ly/acsos-2026-guide</div>
+  </div>
+  <div style="flex:1; text-align:center;">
+    <div style="display:inline-block; padding:.6em; background:rgba(255,255,255,.95); border-radius:.5em;">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=https%3A%2F%2Fbit.ly%2Facsos-2026-guide" alt="QR code for ACSOS 2026 photos" style="display:block; width:11em; height:11em;" />
+    </div>
+  </div>
+</div>
 
-<img src="floor0.svg" alt="Floor 0 map" style="display:block;" />
 
+---
+
+{{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
+
+<div style="position:relative; width:100%; height:32em; margin:1.5em auto 0;">
+  <img src="https://en.meming.world/images/en/5/5d/James_Franco_First_Time.jpg" alt="James Franco First Time meme" style="position:absolute; top:0; left:0; right:0; display:block; width:100%; max-height:30em; object-fit:contain; margin:0 auto;" />
+  {{% fragment %}}
+  <img src="catchemall.png" alt="Catch them all" style="position:absolute; top:0; left:0; right:0; z-index:2; display:block; width:100%; max-height:23em; object-fit:contain; margin:0 auto;" />
+  {{% /fragment %}}
 </div>
 
 ---
+
+[//]: # ({{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}})
+
+[//]: # ()
+[//]: # (# Moving in the Campus, floor 1)
+
+[//]: # ()
+[//]: # (<div style="display:inline-block; background:rgba&#40;255,255,255,.85&#41;; padding:.5em; border-radius:.5em;">)
+
+[//]: # ()
+[//]: # (![]&#40;floor1.svg&#41;)
+
+[//]: # ()
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (---)
+
+[//]: # ()
+[//]: # ({{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}})
+
+[//]: # ()
+[//]: # (# Moving in the Campus, floor 0)
+
+[//]: # ()
+[//]: # (<div style="display:block; width:fit-content; margin:0 auto; background:rgba&#40;255,255,255,.9&#41;; padding:.1em; border-radius:.5em; transform:scale&#40;1.05&#41;; transform-origin:center;">)
+
+[//]: # ()
+[//]: # (<img src="floor0.svg" alt="Floor 0 map" style="display:block;" />)
+
+[//]: # ()
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (---)
 
 {{< slide background-iframe="animations/ribbons.html" background-interactive="true" >}}
 
@@ -879,7 +948,7 @@ style="position:absolute; top:-7em; right:0em; width:25vmin; z-index:10; pointer
 * **1** PhD symposium keynote
 * **2** posters (+**8** from main-track papers)
 * **6** artifacts (+**6** from main-track papers)
-* **109** Registered participants
+* **113** Registered participants
     * including keynote speakers and volunteers
 
 {{% /col %}}
