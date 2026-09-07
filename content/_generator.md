@@ -890,9 +890,7 @@ style="position:absolute; top:-0.5em; right:0em; width:25vmin; z-index:10; point
 
 # Thank you, volunteers!
 
-![](https://i.imgflip.com/b0595b.jpg)
-
-(placeholder for their picture)
+![volunteers.png](volunteers.png)
 
 ---
 
