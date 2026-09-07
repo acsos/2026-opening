@@ -267,8 +267,9 @@ style="width:35em" />
 
 # Additional Social events
 
-<div style="width:70%; height:12em; margin:0 auto; overflow:hidden; line-height:0;">
+<div style="position:relative; width:70%; height:12em; margin:0 auto; overflow:visible; line-height:0;">
   <img src="https://github.com/acsos/acsos2026/blob/main/acsos-ase-lr.png?raw=true" alt="ACSOS ASE image" style="display:block; width:100%; height:100%; object-fit:cover; object-position:center 35%;" />
+  <span style="position:absolute; left:0em; top:50%; color:#d00000; font-size:2.5em; font-weight:900; line-height:1; white-space:nowrap; transform:translateY(-50%) rotate(-40deg); transform-origin:center;">SOLD OUT</span>
 </div>
 
 {{% multicol %}}
@@ -292,15 +293,41 @@ style="width:35em" />
 {{% /col %}}
 {{% /multicol %}}
 
-<div style="position:absolute; left:8%; right:40%; bottom:-8em; z-index:5; display:flex; align-items:center; justify-content:space-around; gap:2em;">
+<div style="position:absolute; left:8%; right:35%; bottom:-8em; z-index:5; display:flex; align-items:center; justify-content:space-around; gap:2em;">
   <div style="flex:1; text-align:right; font-size:1.15em;">
     <b>Register at:</b><br />
-    <span style="font-size:.8em;">serinarpayments.it/acsos-2026/</span>
+    <span style="font-size:.8em;">https://serinarpayments.it/acsos-2026/</span><br />
+    <b>Registrations close Wed. 9 at 11:00</b><br />
+    <span style="font-size:.8em;">Time left to register: <span id="registration-countdown">--</span></span><br />
   </div>
   <div style="flex:0 0 auto; padding:.1em; background:rgba(255,255,255,.95); border-radius:.5em;">
     <img src="https://api.qrserver.com/v1/create-qr-code/?size=500x500&amp;data=https%3A%2F%2Fserinarpayments.it%2Facsos-2026%2F" alt="QR code for Ser.In.Ar. ACSOS 2026 registration" style="display:block; width:7em; height:7em;" />
   </div>
 </div>
+
+<script>
+  (() => {
+    const countdown = document.getElementById('registration-countdown');
+    const deadline = new Date('2026-09-09T11:00:00+02:00').getTime();
+
+    const updateCountdown = () => {
+      const remaining = Math.max(0, deadline - Date.now());
+      if (remaining === 0) {
+        countdown.textContent = '0';
+        return;
+      }
+      const totalSeconds = Math.floor(remaining / 1000);
+      const days = Math.floor(totalSeconds / 86400);
+      const hours = Math.floor((totalSeconds % 86400) / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
+      countdown.textContent = `${days}d ${hours.toString().padStart(2, '0')}h ${minutes.toString().padStart(2, '0')}m ${seconds.toString().padStart(2, '0')}s`;
+    };
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  })();
+</script>
 
 ---
 
